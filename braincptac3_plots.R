@@ -1,4 +1,4 @@
-setwd("/Users/jasonluo/Documents/NIH/Summer2022_Work/NIH_Summer_2022/braincptac3")
+setwd("/Users/jasonluo/Documents/NIH/Summer2022_Work/NIH_Summer_2022/braincptac3_repo")
 library(tidyverse)
 library(ggpubr)
 library(skimr)
@@ -134,7 +134,7 @@ gene_survival_curve <- function(gene_name, states = c("low-expression-male", "hi
 }
 
 
-gene_survival_curve("RANGRF", c("low-expression-male", "high-expression-male")) 
+gene_survival_curve("RANGRF", c("low-expression-female", "high-expression-female")) 
 
 
 ## Combined survival curves
