@@ -1,4 +1,4 @@
-setwd("/Users/jasonluo/Documents/NIH/Summer2022_Work/NIH_Summer_2022/braincptac3_repo")
+setwd("/Users/jasonluo/Documents/NIH/Summer2022_Work/NIH_Summer_2022/braincptac3_repo") # change to appropriate folder
 library(tidyverse)
 library(ggpubr)
 library(skimr)
